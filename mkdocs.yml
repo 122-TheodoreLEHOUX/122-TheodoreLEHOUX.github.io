@@ -1,0 +1,20 @@
+site_name: Theodore Lehoux — Portfolio
+site_url: https://122-theodorelehoux.github.io/
+repo_url: https://github.com/122-TheodoreLEHOUX/122-TheodoreLEHOUX.github.io
+edit_uri: edit/master/docs/
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: teal
+  features:
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+plugins:
+  - search
